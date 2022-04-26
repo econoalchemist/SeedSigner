@@ -26,3 +26,5 @@ The included blank QR code/mnemonic phrase cards measure 64mm x 89mm These cards
 Alternatively, one can opt to use the stainless steel version of the QR code backup. 
 
 (Insert steel plate photo(s)/explainer)
+
+You can set the SeedSigner kit aside for now while you prepare the software image on your MicroSD card in the next section. 
