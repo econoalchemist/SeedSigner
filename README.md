@@ -23,5 +23,6 @@ If you are interested in learning more about catastrophic events involving trust
 - [Exchange CEO mysteriously "dies" taking $190 million dollars worth of cryptocurrency keys to the grave.](https://decrypt.co/5853/complete-story-quadrigacx-190-million)
 - [Cryptocurrency exchange partners with IRS & DEA.](https://decrypt.co/31485/coinbase-license-analytics-irs-dea)
 - [Data breach leaks customer information from 30 cryptocurrency companies](https://decrypt.co/95586/hacker-steals-customer-data-circle-blockfi-big-crypto-firms)
+- [Argentina introduces "one-off" wealth-tax](https://www.businessinsider.com/one-time-wealth-tax-in-argentina-brought-in-24-billion-2021-5?op=1)
 
 Many of these risks can be mitigated by taking self-custody. The tradeoff is that you are taking the personal responsibility of securing your bitcoin. You and you alone are responsible for your bitcoin. There are no "1-800" help lines to reverse your transaction and nobody can help you recover a lost or forgotten seed phrase. Luckily there are many tools available to help you achieve safe and private self-custody. SeedSigner is one such tool that combines general-purpose, inexspensive hardware with free and open source software to provide you with a DIY signing device so you maintain unrestricted, permissionless access to your bitcoin.  
