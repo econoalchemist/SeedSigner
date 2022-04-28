@@ -22,34 +22,47 @@ The following instructions make an assumption that you already use Kleopatra fro
 ![](assets/software02.png)
 
 - You should receive a dialog that informs you the certificate was imported sucessfully. Click on `OK`.
-- Now you can compare the fingerprint in Kleopatra to a known public finger print such as [SeedSigner's Twitter profile](https://twitter.com/SeedSigner).
+- Now you can compare the fingerprint in Kleopatra to a known publicly displayed fingerprint such as [SeedSigner's Twitter profile](https://twitter.com/SeedSigner).
 
 ![](assets/software03.png)
 
 - Now you can right-click on the SeedSigner certificate in Kleopatra and select `Certify`. 
 - You will be prompted to enter your password.
 
-![](assets/software04.png)
+<p align="center">
+ <img src="assets/software04.png">
+</p>
 
 - Open the folder containing the `.zip` file, `.sha256` file, & `.sig` file. 
 - Right-click on the `.sig` file.
 - Select `More GpgEX options` > `Verify`.
+
+<p align="center">
+ <img src="assets/software05.png">
+</p>
+
 - Kleopatra will now use the signature file and the SeedSigner public key to verify the `.sha256` file. 
 - You should receive a dialog displaying the sucessful verification. 
 
-It is important to be able to distinguish between a valid and certified signature, a valid signature, and an invalid signature. Because the SeedSigner public key was certified by comparing the resulting fingerprint to a known publicly displayed fingerprint, the Kleopatra software returns a valid and certified dialong in green. 
+It is important to be able to distinguish between a valid and certified signature, a valid signature, and an invalid signature. Because the SeedSigner public key was certified by comparing the resulting fingerprint to a known publicly displayed fingerprint, the Kleopatra software prints a valid and certified dialong in green. 
 
-![](assets/software06.png)
+<p align="center">
+ <img src="assets/software06.png">
+</p>
 
 If you did not take the extra step to certify the SeedSigner public key, then Kleopatra can still determine that the signature is valid, but not certified. Meaning that the public key and accompanying signature are valid but that they could be from some other entity impersonating the developer. These dialogs will be printed in white. This is still a valid matching signature, it's just that unless you take that extra step to certify the fingerprint of the public key then do you really know it is a valid signature from SeedSigner and not an impersonator? 
 
-![](assets/software07.png)
+<p align="center">
+ <img src="assets/software07.png">
+</p>  
 
 Or if there has been some manipulation in the file you downloaded and it is not authenticaly signed by the SeedSigner key, Kleopatra will print the dialog in red. This is an invalid signature and you should not proceed with decompressing the `.zip` file. 
 
-![](assets/software08.png)
+<p align="center">
+ <img src="assets/software08.png">
+</p>
 
-Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that sha256 hash value contained within is the hash value that you should be able to independantly generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
+Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that sha256 hash value contained within it is in fact the hash value that you should be able to independantly generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
 
 - In HxD, navigate to `File` > `Open` and select the SeedSigner `.zip` file
 - Navigate to `Analysis` > `Checksums` > `SHA256`
@@ -61,7 +74,7 @@ Now that you have verified the authenticity of the accompanying `.sha256` file, 
 
 ![](assets/software10.png)
 
-After verifying the hash value, you know that the `.zip` file is authenttic. It is a good idea to close the `.zip` file from HxD at this point. You can skip ahead to `Step 3` now. 
+After verifying the hash value, you know that the `.zip` file is authenttic. If the hash values do not match, then do not decompress the `.zip` file. It is a good idea to close the `.zip` file from HxD at this point. You can skip ahead to `Step 3` now. 
 
 ## Step 2B: Verify - Linux
 
