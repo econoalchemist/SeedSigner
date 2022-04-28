@@ -77,5 +77,35 @@ Now that you have verified the authenticity of the accompanying `.sha256` file, 
 After verifying the hash value, you know that the `.zip` file is authenttic. If the hash values do not match, then do not decompress the `.zip` file. It is a good idea to close the `.zip` file from HxD at this point. You can skip ahead to `Step 3` now. 
 
 ## Step 2B: Verify - Linux
+Verifying sognatures in Linux is a much more straight forward process. PGP tools come built in and can be executed from the command line terminal.
+
+Before proceeding, you have the `.zip` file, `.sha256` file, and `.sig` file in your Downloads directory. 
+
+- Open your terminal
+- Import the SeedSigner public key to your keychain with `curl https://raw.githubusercontent.com/SeedSigner/seedsigner/main/seedsigner_pubkey.gpg | gpg --import`
+- You should see the terminal print `imported: 1`
+- Then change your directory to your Downloads folder with `cd Downloads`
+
+<p align="center">
+ <img src="assets/software12.png">
+</p>
+
+- Now verify the signature with `gpg --verify seedsigner_0_5_0.img.zip.sha256.sig`. Be sure to use the version relative to the one you are verifying, this was version 0.5.0 and releases are made often so always use the latest one from SeedSigners [releases page](https://github.com/SeedSigner/seedsigner/releases).
+- The terminal should print `Good signature from "seedsigner <btc.hardware.solutions@gmail.com>"`
+- You will see the warning about the key not being certified, see the example in `Step 2A` for a detailed explanation. Long story short, this is fine.
+
+<p align="center">
+ <img src="assets/software13.png">
+</p>
+
+- Now you can verify the hash value with `shasum -a 256 -c seedsigner_0_5_0.img.zip.sha256`. Again, making sure to use the version appropriate for you.
+- The terminal should print `seedsigner_0_5_0.img.zip: OK`.
+- You can ignore the warning about improperly formated lines if you get it.
+
+<p align="center">
+ <img src="assets/software14.png">
+</p>
+
+That's it, you done verifying the `.zip` file you downloaded. You can now move on to flashing the image to the MicroSD card in the next step. 
 
 ## Step 3: Flash
