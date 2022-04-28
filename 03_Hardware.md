@@ -2,7 +2,7 @@
 This section demonstrates how to assemble the SeedSigner kit components into the final product and also provides details on what each component is and alternative places to purchase these components in case you do not want to purchase the whole kit from one vendor. Best practice is to test that your components power on and the SeedSigner software works prior to assembly. The enclosure and or components can be damaged if you attempt disassembly. 
 
 ## Enclosure
-The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed
+The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed, you can even [download the file](https://github.com/SeedSigner/seedsigner/tree/main/enclosures/open_pill) and print one yourself. 
 
 The enclosure outter dimensions are 80mm x 35mm x 26mm and there are a number of retention bumps, support ledges, and journals to fit the components snugly inside.  
 ![](assets/hardware00.jpg)
@@ -22,7 +22,7 @@ The camera is a 5MP OV5647 Sensor, 30 FPS, 2592x1944 resolution video camera mod
 
 ![](assets/hardware04.jpg)
 
-You want the HBV-Raspberry-160FPC golden ribbon cable for the RaspberryPi Zero. This cable has 16-flat-pin connector side measuring 16mm, a 22-flat-pin connector side measuring 11mm, and the overall length is 160mm.
+You want the `HBV-Raspberry-160FPC` golden ribbon cable for the RaspberryPi Zero. This cable has 16-flat-pin connector side measuring 16mm, a 22-flat-pin connector side measuring 11mm, and the overall length is 160mm.
 ![](assets/hardware05.jpg)
 
 If you do not want to get the complete kit, you can buy a stand alone camera & cable from the following vendors:
