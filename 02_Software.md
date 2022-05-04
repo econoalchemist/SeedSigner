@@ -122,14 +122,14 @@ Once you have Balena Etcher installed and opened, select `Flash from file`.
 Select the `.zip` file from the file explorer. The `.zip` file can remain in it's compressed state, Balena Etcher will decompress it.  
 
 <p align="center">
-<img width="500" src="assets/software17.png">
+<img width="800" src="assets/software17.png">
 </p>
 
 Select the target drive that you want to flash the image file to. 
 
 <p align="center">
- <img width="400" src="assets/software18.png">
- <img width="400" src="assets/software19.png">
+ <img width="500" src="assets/software18.png">
+ <img width="500" src="assets/software19.png">
 </p>
 
 Click on the `Flash!` button and the flashing process should start automatically. The progress bar will move over to the left-hand side of the application and some promotional dialogs will be displayed on the right-hand side of the application. You do not need to interact with the promotional dialogs, just let the flashing process run.
@@ -137,16 +137,16 @@ Click on the `Flash!` button and the flashing process should start automatically
 There are 3 stages of the flashing process: Decompression, Flashing, & Validation. Just let the software run through all the steps and do not disconnect the MicroSD card during this process. If you get any operating system prompts saying the drive needs to be formatted, just ignore them. 
 
 <p align="center">
- <img width="400" src="assets/software20.png">
- <img width="400" src="assets/software21.png">
- <img width="400" src="assets/software22.png">
- <img width="400" src="assets/software23.png">
+ <img width="500" src="assets/software20.png">
+ <img width="500" src="assets/software21.png">
+ <img width="500" src="assets/software22.png">
+ <img width="500" src="assets/software23.png">
 </p>
 
 Once finished, you should receive a message that lets you know the flash was completed sucessfully. If it was not completed sucessfully, try again and if the problem persists, then consider using a different MicroSD card. 
 
 <p align="center">
-<img width="500" src="assets/software24.png">
+<img width="600" src="assets/software24.png">
 </p>
 
 You can safely eject the MicroSD card from your computer and test out your hardware prior to final assembly. 
