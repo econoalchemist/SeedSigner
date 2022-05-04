@@ -149,4 +149,4 @@ Once finished, you should receive a message that lets you know the flash was com
 <img width="600" src="assets/software24.png">
 </p>
 
-You can safely eject the MicroSD card from your computer and test out your hardware prior to final assembly. 
+You can close the Balena Etcher application and safely eject the MicroSD card from your computer and test out your hardware prior to final assembly. 
