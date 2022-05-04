@@ -109,3 +109,44 @@ Before proceeding, you have the `.zip` file, `.sha256` file, and `.sig` file in 
 That's it, you done verifying the `.zip` file you downloaded. You can now move on to flashing the image to the MicroSD card in the next step. 
 
 ## Step 3: Flash
+Using a program like Balena Etcher makes flashing the SeedSigner image easy. Navigate to the [Balena Etcher website](https://www.balena.io/etcher/) where you can download the application appropriate for your operating system. Follow your system prompts to install. Make sure you have a MicroSD card at least 4GB in size formatted and connected to your computer.  
+
+![](assets/software15.png)
+ 
+Once you have Balena Etcher installed and opened, select `Flash from file`.
+
+<p align="center">
+<img width="500" src="assets/software16.png">
+</p>
+
+Select the `.zip` file from the file explorer. The `.zip` file can remain in it's compressed state, Balena Etcher will decompress it.  
+
+<p align="center">
+<img width="500" src="assets/software17.png">
+</p>
+
+Select the target drive that you want to flash the image file to. 
+
+<p align="center">
+ <img width="400" src="assets/software18.png">
+ <img width="400" src="assets/software19.png">
+</p>
+
+Click on the `Flash!` button and the flashing process should start automatically. The progress bar will move over to the left-hand side of the application and some promotional dialogs will be displayed on the right-hand side of the application. You do not need to interact with the promotional dialogs, just let the flashing process run.
+
+There are 3 stages of the flashing process: Decompression, Flashing, & Validation. Just let the software run through all the steps and do not disconnect the MicroSD card during this process. If you get any operating system prompts saying the drive needs to be formatted, just ignore them. 
+
+<p align="center">
+ <img width="400" src="assets/software20.png">
+ <img width="400" src="assets/software21.png">
+ <img width="400" src="assets/software22.png">
+ <img width="400" src="assets/software23.png">
+</p>
+
+Once finished, you should receive a message that lets you know the flash was completed sucessfully. If it was not completed sucessfully, try again and if the problem persists, then consider using a different MicroSD card. 
+
+<p align="center">
+<img width="500" src="assets/software24.png">
+</p>
+
+You can safely eject the MicroSD card from your computer and test out your hardware prior to final assembly. 
