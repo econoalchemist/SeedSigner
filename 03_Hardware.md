@@ -93,7 +93,7 @@ Step 5: Connect your power cable and wait about 45 seconds for the SeedSigner to
   <img width="500" src="assets/testing07.png">   
 </p>
 
-Now that you have checked that everything is working, you can power off the SeedSigner by removing the power cable. Then you can disassemble everything and re-assemble it in the 3D printed enclosure. 
+Now that you have checked that everything is working, you can power off the SeedSigner by selecting the power icon in the upper right-hand corner from the main menu. Then you can disassemble everything and re-assemble it in the 3D printed enclosure. 
 
 ## Assembly
 Prior to attempting assembly, ensure that you have tested that everything works by connecting the camera and display to the RaspberryPi Zero, inserting the MicroSD card with the SeedSigner image loaded, and powering on the device by connecting a microUSB cable to the power input port. 
