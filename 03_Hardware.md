@@ -1,5 +1,5 @@
 # Hardware
-This section demonstrates how to assemble the SeedSigner kit components into the final product and also provides details on what each component is and alternative places to purchase these components in case you do not want to purchase the whole kit from one vendor. Best practice is to test that your components power on and the SeedSigner software works prior to assembly. The enclosure and or components can be damaged if you attempt disassembly. 
+This section demonstrates how to test and assemble the SeedSigner kit and also provides details on what each component is and alternative places to purchase these components in case you do not want to purchase the whole kit from one vendor. Best practice is to test that your components power on and the SeedSigner software works prior to assembly. The enclosure and or components can be damaged if you attempt disassembly. 
 
 ## Enclosure
 The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed, you can even [download the file](https://github.com/SeedSigner/seedsigner/tree/main/enclosures/open_pill) and print one yourself. 
@@ -61,7 +61,69 @@ If you do not want to get the complete kit, you can buy a stand alone WaveShare 
 - Worldwide delivery available from [AliExpress](https://www.aliexpress.com/item/32952472064.html)
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/waveshare-14972-13inch-lcd-hat-i2659455966-s12653987690.html?spm=a2o4l.seller.list.7.111a346bP5V0no&mp=1&freeshipping=1)
 
+## Testing
+Testing the hardware with the SeedSigner software is a good idea. If you assemble everything and then find out that something doesn't work, you can damage the components and or enclosure trying to disassemble it. 
+
+Step 1: On the Raspberry Pi Zero board, gently pull the tabs out on the camera connection port. When these tabs are depressed, they will lock the ribbon cable in place.
+
+![](assets/testing00.png)
+
+Step 2: Make sure the ribbon cable is facing the correct direction, the gold connectors should be facing the bottom side of the Raspberry Pi Zero circuit board. Insert the ribbon cable until it stops, then press the tabs down to lock the ribbon cable in place. 
+
+<p align="center">
+  <img width="500" src="assets/testing01.png">
+  <img width="500" src="assets/testing02.png">   
+</p>
+
+Step 3: Insert the MicroSD card with the flashed SeedSigner image.Ensure the MicroSD card is facing the correct direction, again the gold contacts should be facing the bottom of the Raspberry Pi Zero circuit board. 
+
+<p align="center">
+  <img width="500" src="assets/testing03.png">
+  <img width="500" src="assets/testing04.png">   
+</p>
+
+Step 4: Connect the LCD display, making sure that the pins on the Raspberry Pi Zero circuit board are all straight and that they won't get bent by being misaligned. This will just loosly attach to the Raspberry Pi Zero circuit board, it is not going to snap into place until you do the final assembly in the 3D printed enclosure.
+
+![](assets/testing05.png)
+
+Step 5: Connect your power cable and wait about 45 seconds for the SeedSigner to activate. Then test out the joy stick and buttons on the LCD display and ensure that the camera works. 
+
+<p align="center">
+  <img width="500" src="assets/testing06.png">
+  <img width="500" src="assets/testing07.png">   
+</p>
+
+Now that you have checked that everything is working, you can power off the SeedSigner by removing the power cable. Then you can disassemble everything and re-assemble it in the 3D printed enclosure. 
+
 ## Assembly
 Prior to attempting assembly, ensure that you have tested that everything works by connecting the camera and display to the RaspberryPi Zero, inserting the MicroSD card with the SeedSigner image loaded, and powering on the device by connecting a microUSB cable to the power input port. 
 
+Step 1: Gather your tested components. You should have the 3D printed enclosure, Raspberry Pi Zero, MicroSD card, LCD display, Camera module, and ribbon cable. 
 
+![](assets/assembly00.png)
+
+Step 2: Remove the protective layer of film from the camera lense. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.  
+
+![](assets/assembly02.png)
+
+Step 3: Insert the Raspberry Pi Zero circuit board. Make sure you remove the MicroSD card first. The ribbon cable will fold over the camera module, with the slack tucking underneath the enclosure recess. 
+
+Align the USB connectors with the ports on the enclosure, the circuit board will be at a slight angle, then you can press down on the side with the PINs until you hear it snap into place. 
+
+<p align="center">
+  <img width="500" src="assets/assembly03.png">
+  <img width="500" src="assets/assembly04.png">
+  <img width="500" src="assets/assembly05.png">
+  <img width="500" src="assets/assembly06.png"> 
+</p>
+
+Step 4: Then you can insert the MicroSD card again. Then press the LCD display into place on the PINs of the Raspberry Pi Zero circuit board, taking care ensure the pins are aligned. This should fit tightly and not be loose. 
+
+<p align="center">
+  <img width="500" src="assets/assembly07.png">
+  <img width="500" src="assets/assembly08.png">
+</p>
+
+Step 5: Plug in your power cable and make sure everything works. Then you are ready to start setting up your new Bitcoin seed phrase.
+
+![](assets/assembly09.png)
