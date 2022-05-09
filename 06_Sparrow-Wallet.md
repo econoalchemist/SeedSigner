@@ -52,3 +52,6 @@ Step 5: Once your node finishing scanning for any transactions (automatic proces
   <img width="500" src="assets/sparrow06.png">
 </p>
 
+Once you make a deposit, the transaction should show up right away in Sparrow Wallet as `Unconfirmed` until it receives some block confirmations. Once this deposit is made, a signature from your SeedSigner will be required to spend it. 
+
+## Creating A PSBT
