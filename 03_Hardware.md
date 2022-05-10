@@ -4,10 +4,10 @@ This section demonstrates how to test and assemble the SeedSigner kit and also p
 ## Enclosure
 The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed, you can even [download the file](https://github.com/SeedSigner/seedsigner/tree/main/enclosures/open_pill) and print one yourself. 
 
-The enclosure outter dimensions are 80mm x 35mm x 26mm and there are a number of retention bumps, support ledges, and journals to fit the components snugly inside.  
+The enclosure outer dimensions are 80mm x 35mm x 26mm and there are a number of retention bumps, support ledges, and journals to fit the components snugly inside.  
 ![](assets/hardware00.jpg)
 
-The enclosure also features openings for the camera lense, microUSB ports, HDMI port, and MicroSD card port.
+The enclosure also features openings for the camera lens, microUSB ports, HDMI port, and MicroSD card port.
 ![](assets/hardware01.jpg)
 
 If you do not want to get the complete kit, you can buy a stand alone enclosure of various designs from the following vendors:
@@ -17,7 +17,7 @@ If you do not want to get the complete kit, you can buy a stand alone enclosure 
 - EU/UK delivery available from [GoBrrr](https://www.gobrrr.me/product/seedsigner-lilpill-case/?v=7516fd43adaa), [DIYNodes](https://diynodes.com/product/seedsigner-3d-printed-orange-pill-case/), & [AnchorHodl](https://anchorhodl.com/product/retro-pill-case-for-seedsigner)
 
 ## Raspberry Pi Camera & Cable
-The camera is a 5MP OV5647 Sensor, 30 FPS, 2592x1944 resolution video camera module designed for a range of RaspberryPis. The working voltage is 1.7vdc ~ 3vdc. This module measures 25mm x 24mm x 9mm. The camera ships with a protective film over the lense, be sure to remove this prior to assembly.
+The camera is a 5MP OV5647 Sensor, 30 FPS, 2592x1944 resolution video camera module designed for a range of RaspberryPis. The working voltage is 1.7vdc ~ 3vdc. This module measures 25mm x 24mm x 9mm. The camera ships with a protective film over the lens, be sure to remove this prior to assembly.
 ![](assets/hardware03.jpg)
 
 ![](assets/hardware04.jpg)
@@ -47,7 +47,7 @@ If you do not want to get the complete kit, you can buy a stand alone RaspberryP
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-zero-version-13-i2659573158-s12653906040.html?spm=a2o4l.seller.list.1.111a346bP5V0no&mp=1&freeshipping=1)
 
 ## WaveShare LCD HAT Display
-The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attached to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three pushbuttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
+The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attached to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three push-buttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
 
 ![](assets/hardware09.jpg)
 
@@ -102,7 +102,7 @@ Step 1: Gather your tested components. You should have the 3D printed enclosure,
 
 ![](assets/assembly00.png)
 
-Step 2: Remove the protective layer of film from the camera lense. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.  
+Step 2: Remove the protective layer of film from the camera lens. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.  
 
 ![](assets/assembly02.png)
 
