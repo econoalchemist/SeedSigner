@@ -77,10 +77,8 @@ Step 3: On the next screen you will be presented with the transaction ID (txid) 
 
 Step 4: On the next screen, click on `Show QR` and Sparrow Wallet will display a series of animated QR codes in a pop-up window. Then you can scan those with your SeedSigner. If you have not done so already, you will need to power on your SeedSigner, scan your QR code seed phrase, enter your passphrase, and then select the option to sign the PSBT. 
 
-<p align="center">
-  <img width="500" src="assets/psbt03.png">
-  <img width="500" src="assets/psbt04.jpg">
-</p>
+![](assets/psbt03.png)
+![](assets/psbt04.jpg)
 
 Step 5: On your SeedSigner you will confirm several details about this transaction.
 - Make sure you select the correct wallet, noting the fingerprint.
@@ -105,7 +103,7 @@ Step 5: On your SeedSigner you will confirm several details about this transacti
   <img width="500" src="assets/psbt09.jpg">
   <img width="500" src="assets/psbt10.jpg">
   <img width="500" src="assets/psbt11.jpg">
-  <img width="500" src="assets/psbt12.jpg">
+  <img width="500" src="assets/psbt12.png">
 </p>
 
 Once the details are received by Sparrow Wallet, then select `Broadcast Transaction`. 
