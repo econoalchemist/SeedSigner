@@ -23,8 +23,11 @@ The included blank QR code/mnemonic phrase cards measure 64mm x 89mm These cards
 
 ![](assets/unboxing02.jpg)
 
-Alternatively, one can opt to use the stainless steel version of the QR code backup. 
+Alternatively, one can opt to use the stainless steel version of the QR code backup. The stainless steel plates are made by [@SeedMint21](https://twitter.com/SeedMint21). All of their high quality products are available at [https://vulcan21.com/](https://vulcan21.com/). 
 
-(Insert steel plate photo(s)/explainer)
+The SeedSigner stainless steel plate features a 3mm x 66mm x 91xx plate that can withstand fire and flooding. This is a great alternative from paper because it candle extreme environments. The plate featured in this guide has the SeedSigner logo on it, future plates may not have this logo to help prevent revealing that this is a Bitcoin related product. There is a 29x29 QR code grid on the plate and you can mark the indentations with a marker, check that it works, and then stamp the marks with a punch to make them permanent. 
+
+![](assets/plate00.jpg)
+![](assets/plate01.jpg)
 
 You can set the SeedSigner kit aside for now while you prepare the software image on your MicroSD card in the next section. 
