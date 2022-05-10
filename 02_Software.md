@@ -42,9 +42,9 @@ The following instructions make an assumption that you already use Kleopatra fro
 </p>
 
 - Kleopatra will now use the signature file and the SeedSigner public key to verify the `.sha256` file. 
-- You should receive a dialog displaying the sucessful verification. 
+- You should receive a dialog displaying the successful verification. 
 
-It is important to be able to distinguish between a valid and certified signature, a valid signature, and an invalid signature. Because the SeedSigner public key was certified by comparing the resulting fingerprint to a known publicly displayed fingerprint, the Kleopatra software prints a valid and certified dialong in green. 
+It is important to be able to distinguish between a valid and certified signature, a valid signature, and an invalid signature. Because the SeedSigner public key was certified by comparing the resulting fingerprint to a known publicly displayed fingerprint, the Kleopatra software prints a valid and certified dialog in green. 
 
 <p align="center">
  <img src="assets/software06.png">
@@ -56,13 +56,13 @@ If you did not take the extra step to certify the SeedSigner public key, then Kl
  <img src="assets/software07.png">
 </p>  
 
-Or if there has been some manipulation in the file you downloaded and it is not authenticaly signed by the SeedSigner key, Kleopatra will print the dialog in red. This is an invalid signature and you should not proceed with decompressing the `.zip` file. 
+Or if there has been some manipulation in the file you downloaded and it is not authentically signed by the SeedSigner key, Kleopatra will print the dialog in red. This is an invalid signature and you should not proceed with decompressing the `.zip` file. 
 
 <p align="center">
  <img src="assets/software08.png">
 </p>
 
-Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that sha256 hash value contained within it is in fact the hash value that you should be able to independantly generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
+Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that sha256 hash value contained within it is in fact the hash value that you should be able to independently generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
 
 - In HxD, navigate to `File` > `Open` and select the SeedSigner `.zip` file
 - Navigate to `Analysis` > `Checksums` > `SHA256`
@@ -74,15 +74,15 @@ Now that you have verified the authenticity of the accompanying `.sha256` file, 
 
 ![](assets/software10.png)
 
-After verifying the hash value, you know that the `.zip` file is authenttic. If the hash values do not match, then do not decompress the `.zip` file. It is a good idea to close the `.zip` file from HxD at this point. You can skip ahead to `Step 3` now. 
+After verifying the hash value, you know that the `.zip` file is authentic. If the hash values do not match, then do not decompress the `.zip` file. It is a good idea to close the `.zip` file from HxD at this point. You can skip ahead to `Step 3` now. 
 
 ## Step 2B: Verify - Linux
-Verifying sognatures in Linux is a much more straight forward process. PGP tools come built in and can be executed from the command line terminal.
+Verifying signatures in Linux is a much more straight forward process. PGP tools come built in and can be executed from the command line terminal.
 
 Before proceeding, you have the `.zip` file, `.sha256` file, and `.sig` file in your Downloads directory. 
 
 - Open your terminal
-- Import the SeedSigner public key to your keychain with `curl https://raw.githubusercontent.com/SeedSigner/seedsigner/main/seedsigner_pubkey.gpg | gpg --import`
+- Import the SeedSigner public key to your key-chain with `curl https://raw.githubusercontent.com/SeedSigner/seedsigner/main/seedsigner_pubkey.gpg | gpg --import`
 - You should see the terminal print `imported: 1`
 - Then change your directory to your Downloads folder with `cd Downloads`
 
@@ -143,7 +143,7 @@ There are 3 stages of the flashing process: Decompression, Flashing, & Validatio
  <img width="500" src="assets/software23.png">
 </p>
 
-Once finished, you should receive a message that lets you know the flash was completed sucessfully. If it was not completed sucessfully, try again and if the problem persists, then consider using a different MicroSD card. 
+Once finished, you should receive a message that lets you know the flash was completed successfully. If it was not completed successfully, try again and if the problem persists, then consider using a different MicroSD card. 
 
 <p align="center">
 <img width="600" src="assets/software24.png">
