@@ -31,4 +31,7 @@ SeedSigner is one such tool that combines general-purpose, inexspensive hardware
 
 One helpful feature of SeedSigner is that the required components are widely available, inexpensive,and general purpose. This means that these parts can be procured in such a way that no indication of using them for Bitcoin is revealed. SeedSigner is sold in a kit from various vendors, so if you purchase the complete kit then it is obvious what the intended use is. However, throughout this guide you will find links to several vendors for the individual componenets so that you have the resources you need to procure them individually if you prefer.      
 
+## Video Summary
+This video demonstrates a high-level overview of the content within this guide. The video is not meant as a replacement for the information in this guide, only as a supplemental visual assistant. 
 
+[![SeedSigner Demo](/assets/VideoThumbnail00.png)](https://media.econoalchemist.com/w/vB4LuA7Ehx7J19qoUmtfN8 "SeedSigner Demo")
