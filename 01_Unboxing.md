@@ -10,7 +10,7 @@ The SeedSigner kit includes the following components:
 - Ribbon cable for the camera
 - WaveShare LCD Hat 
 - 3D printed open-face case
-- Seven blank QR code/menmonic phrase cards
+- Seven blank QR code/mnemonic phrase cards
 - SeedSigner sticker
 - "Getting Started" instructions
 - "Thank You" card
