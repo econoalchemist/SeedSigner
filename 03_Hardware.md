@@ -47,7 +47,7 @@ If you do not want to get the complete kit, you can buy a stand alone RaspberryP
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-zero-version-13-i2659573158-s12653906040.html?spm=a2o4l.seller.list.1.111a346bP5V0no&mp=1&freeshipping=1)
 
 ## WaveShare LCD HAT Display
-The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attached to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three push-buttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
+The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attaches to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three push-buttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
 
 ![](assets/hardware09.jpg)
 
@@ -75,7 +75,7 @@ Step 2: Make sure the ribbon cable is facing the correct direction, the gold con
   <img width="500" src="assets/testing02.png">   
 </p>
 
-Step 3: Insert the MicroSD card with the flashed SeedSigner image.Ensure the MicroSD card is facing the correct direction, again the gold contacts should be facing the bottom of the Raspberry Pi Zero circuit board. 
+Step 3: Insert the MicroSD card with the flashed SeedSigner image. Ensure the MicroSD card is facing the correct direction, again the gold contacts should be facing the bottom of the Raspberry Pi Zero circuit board. 
 
 <p align="center">
   <img width="500" src="assets/testing03.png">
