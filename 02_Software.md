@@ -11,7 +11,9 @@ Scroll to the bottom of that release section and click on the link to download t
 ![](assets/software01.png)
 
 ## Step 2A: Verify - Windows
-This step is optional but recommended. This will ensure that you have downloaded the file that the SeedSigner developers intended on you receiving. This step will demonstrate how to verify on a Windows platform. Skip to `Step 2B` if you are using a Linux platform. Or skip to `Step 3` if you do not wish to verify your software download that will be handling your Bitcoin private keys.
+This step is optional but recommended. This will ensure that you have downloaded the file that the SeedSigner developers intended on you receiving. This step will demonstrate how to verify on a Windows platform. Skip to `Step 2B` if you are using a Linux platform. 
+
+Or skip to `Step 3` if you do not wish to verify your software download that will be handling your Bitcoin private keys.
 
 The following instructions make an assumption that you already use Kleopatra from the [gpg4win software bundle](https://www.gpg4win.org/features.html) and have your own PGP key setup.
 
@@ -79,10 +81,13 @@ After verifying the hash value, you know that the `.zip` file is authentic. If t
 ## Step 2B: Verify - Linux
 Verifying signatures in Linux is a much more straight forward process. PGP tools come built in and can be executed from the command line terminal.
 
-Before proceeding, you have the `.zip` file, `.sha256` file, and `.sig` file in your Downloads directory. 
+Before proceeding, ensure you have the `.zip` file, `.sha256` file, and `.sig` file in your Downloads directory. 
 
 - Open your terminal
-- Import the SeedSigner public key to your key-chain with `curl https://raw.githubusercontent.com/SeedSigner/seedsigner/main/seedsigner_pubkey.gpg | gpg --import`
+- Import the SeedSigner public key to your key-chain with: 
+
+`curl https://raw.githubusercontent.com/SeedSigner/seedsigner/main/seedsigner_pubkey.gpg | gpg --import`
+
 - You should see the terminal print `imported: 1`
 - Then change your directory to your Downloads folder with `cd Downloads`
 
@@ -106,7 +111,7 @@ Before proceeding, you have the `.zip` file, `.sha256` file, and `.sig` file in 
  <img src="assets/software14.png">
 </p>
 
-That's it, you done verifying the `.zip` file you downloaded. You can now move on to flashing the image to the MicroSD card in the next step. 
+That's it, you're done verifying the `.zip` file you downloaded. You can now move on to flashing the image to the MicroSD card in the next step. 
 
 ## Step 3: Flash
 Using a program like Balena Etcher makes flashing the SeedSigner image easy. Navigate to the [Balena Etcher website](https://www.balena.io/etcher/) where you can download the application appropriate for your operating system. Follow your system prompts to install. Make sure you have a MicroSD card at least 4GB in size formatted and connected to your computer.  
@@ -116,7 +121,7 @@ Using a program like Balena Etcher makes flashing the SeedSigner image easy. Nav
 Once you have Balena Etcher installed and opened, select `Flash from file`.
 
 <p align="center">
-<img width="500" src="assets/software16.png">
+<img width="750" src="assets/software16.png">
 </p>
 
 Select the `.zip` file from the file explorer. The `.zip` file can remain in it's compressed state, Balena Etcher will decompress it.  
@@ -125,7 +130,7 @@ Select the `.zip` file from the file explorer. The `.zip` file can remain in it'
 <img width="800" src="assets/software17.png">
 </p>
 
-Select the target drive that you want to flash the image file to. 
+Select the target drive that you want to flash the image file to. You want to choose your MicroSD card here.  
 
 <p align="center">
  <img width="500" src="assets/software18.png">
