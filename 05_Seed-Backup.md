@@ -10,7 +10,9 @@ After you generate a new seed on your SeedSigner, either by taking an image or b
 ## Note Card
 When you create a new seed, SeedSigner will direct you to the list of 12 or 24 words. You want to write these words down as they are displayed. The back of the included QR code note cards have space for 24 words. Write these words down legibly and in order. Four words are displayed at a time, select `Next` until you have cycled through all the words. 
 
-![](assets/backup00.png)
+<p align="center">
+  <img src="assets/backup00.png">
+</p>  
 
 Select `Done` when finished and the SeedSigner will prompt you to test yourself on your backup, it is best practice to take this test to ensure your backup was written down correctly.  
 
@@ -46,17 +48,23 @@ There is a tool maintained by [@BitcoinQ_A](https://twitter.com/BitcoinQ_A) that
 
 Visit [Bitcoiner.Guide/seed/](https://bitcoiner.guide/seed/) to learn more.
 
-![](assets/backup11.png)
+<p align="center">
+<img src="assets/backup11.png">
+</p>
 
 Decide if you want to write down the fingerprint for the mnemonic phrase wallet, or the fingerpring for the passphrase applied wallet, or both. In this example, the generated fingerprint once the QR code is scanned is different from the fingerprint generated once the passphrase is applied. 
 
-![](assets/backup08.png)
-![](assets/backup09.png)
-![](assets/backup10.png)
-
+<p align="center">
+<img src="assets/backup08.png">
+<img src="assets/backup09.png">
+<img src="assets/backup10.png">
+</p>
+  
 Or in this axample, the primary wallet fingerprint it noted at the top and then the finger print for the passphrase applied wallet is noted at the bottom with the indicator "PP" for passphrase. Keep in mind too, that if you store your mnemonic phrase with your seed phrase then an adversary would have all the information the need to steal your bitcoin. However, you store your passphrase separate from your mnemonic phrase then there is added security. 
 
-![](assets/backup12.png)
+<p align="center">
+<img src="assets/backup12.png">
+</p>
 
 One thing to consider as well is that although the fingerprint itself will not put the security of your bitcoin at risk directly, the simple existance of an additional fingerprint could be enough to tip off an adversary that there is another bitcoin wallet which a passphrase is needed to access. If you setup a duress wallet with a small amount of bitcoin in the primary wallet and the majority of bitcoin in the passphrase applied wallet, this could be a consideration for you. 
 
@@ -65,16 +73,22 @@ The initial process for creating a steel QR code backup is much the same as for 
 
 Use a permanent marker to mark where the punches should be made. 
 
-![](assets/backup13.png)
+<p align="center">
+<img src="assets/backup13.png">
+</p>
 
 If you make a mistake, you can remove the permanent marker with acetone and a Q-tip. There is error correction software in the SeedSigner that tolerates some misplaced dots, but it is best practice to be as accurate as possible. 
 
-![](assets/backup14.png)
+<p align="center">
+<img src="assets/backup14.png">
+</p>
 
 Prior to stamping the dots with a punch, test the QR code with the SeedSigner. 
 
-![](assets/backup15.png)
-![](assets/backup16.png)
+<p align="center">
+<img src="assets/backup15.png">
+<img src="assets/backup16.png">
+</p>
 
 Now you are ready to stamp the dots permanently into the steel plate with a punch. This demonstration uses what is known as a "Prick Punch" and a 4-pound mini sledge hammer on a concrete floor. Having a solid surface to hammer on and a heavy hammer is key to getting crisp clear punches. 
 
@@ -83,11 +97,15 @@ Now you are ready to stamp the dots permanently into the steel plate with a punc
   <img width="500" src="assets/PXL_20220517_021548363.jpg">
 </p> 
 
-![](assets/backup17.png)
+<p align="center">
+<img src="assets/backup17.png">
+</p>  
 
 A letter & number stamp set can be used to mark additional information onto the steel plate such as the fingerprint. Agian, make careful considerations how you will store information related to passphrase applied wallets. In this example, the primary fingerprint is marked on top, this is the resulting fingerprint when the QR code is scanned. On the bottom, the "PP" indication is used to symbolize `passphrase` followed by the resulting fingerprint when the passphrase is applied.  
 
-![](assets/backup18.png)
+<p align="center">
+<img src="assets/backup18.png">
+</p>  
 
 Your Steel QR code is now ready to be securely stored. 
 
