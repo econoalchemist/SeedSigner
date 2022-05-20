@@ -120,6 +120,7 @@ You should have well defined and clear marks in your steel plate that match the 
 <img src="assets/steel00.jpg">
 <img src="assets/steel01.jpg">
 <img src="assets/steel03.jpg">
+<img src="assets/steel04.jpg">
 <img src="assets/steel05.jpg">
 <img src="assets/steel06.jpg">
 </p> 
