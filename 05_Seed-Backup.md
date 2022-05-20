@@ -107,6 +107,25 @@ A letter & number stamp set can be used to mark additional information onto the 
 <img src="assets/backup18.png">
 </p>  
 
+Be sure to test your stamped QR code steel plate by scanning it with your SeedSigner. Be aware that you may need to try different lighting conditions.
+
+<p align="center">
+<img src="assets/backup19.png">
+<img src="assets/backup20.png">
+</p> 
+
+You should have well defined and clear marks in your steel plate that match the notecard QR code.
+
+<p align="center">
+<img src="assets/steel00.jpg">
+<img src="assets/steel01.jpg">
+<img src="assets/steel03.jpg">
+<img src="assets/steel05.jpg">
+<img src="assets/steel06.jpg">
+</p> 
+
+
+
 Your Steel QR code is now ready to be securely stored. 
 
 ## Fire Test
