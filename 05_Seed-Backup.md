@@ -125,9 +125,24 @@ You should have well defined and clear marks in your steel plate that match the 
 <img src="assets/steel06.jpg">
 </p> 
 
-
-
 Your Steel QR code is now ready to be securely stored. 
 
 ## Fire Test
 To verify that the wallet information could be recovered in the event of catastrophic events such as fire, the steel plate was heated up to just below melting temperatures using an oxygen & acetelyne torch. Ideally, in the event of a fire, the QR code on the steel plate would still be able to be scanned and recovered quickly. However, fire can cause the finish on the plate to disapear leaving very little distinction between the plate background and the darkened areas. Recovery in this case can still be possible by visually transcribing the information from the burnt QR code steel plate to a paper notecard and then scanning the QR code on the notecard. This stress test revealed that the steel plate can withstand temperatures just below 1,500° C, well below typical house fire temperatures, and the information contained within the steel plate was still 100% recoverable by visually transcribing the QR code to a paper notecard.
+
+You can watch the fire test in the full video at XXXX
+
+<p align="center">
+<img src="assets/SeedMint01.png">
+<img src="assets/SeedMint.jpg">
+<img src="assets/steel00.jpg">
+<img src="assets/steel08.jpg">
+<img src="assets/steel09.jpg">
+<img src="assets/steel10.jpg">
+</p>
+
+As an example of the error correction in action, you will notice that some dots were mis-stamped in segment B6 when transcribing the QR code to the steel plate. The dots were later re-stamped in the correct place, all three variations of the QR code produced the same seed. 
+
+<p align="center">
+<img src="assets/steel012.jpg">
+</p>
