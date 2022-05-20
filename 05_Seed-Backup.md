@@ -135,7 +135,6 @@ You can watch the fire test in the full video at XXXX
 <p align="center">
 <img src="assets/SeedMint01.png">
 <img src="assets/SeedMint.jpg">
-<img src="assets/steel00.jpg">
 <img src="assets/steel08.jpg">
 <img src="assets/steel09.jpg">
 <img src="assets/steel10.jpg">
