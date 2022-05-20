@@ -140,6 +140,13 @@ You can watch the fire test in the full video at XXXX
 <img src="assets/steel10.jpg">
 </p>
 
+The wallet was 100% recoverable by transcribing the information on the burnt steel plate to a notecard and then scanning the notecard with the SeedSigner. Attempts were made to modify the finish of the steel plate after the fire test to see if enough distinction could be brought back to allow for scanning. A brass bristle brush was used, as well as some solvent to remove any remaining carbon, then some oil was applied which just caused the surface to turn a brown hue, finally a polish wheel was used on the surface and a permanent marker was used to color in the stationary squares in the four corners of the QR code. But the QR code would not scan. Transcribing it though did work just fine.  
+
+<p align="center">
+<img src="assets/backup21.png">
+<img src="assets/backup22.png">
+</p>
+
 As an example of the error correction in action, you will notice that some dots were mis-stamped in segment B6 when transcribing the QR code to the steel plate. The dots were later re-stamped in the correct place, all three variations of the QR code produced the same seed. 
 
 <p align="center">
