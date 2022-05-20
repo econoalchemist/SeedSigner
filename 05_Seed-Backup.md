@@ -145,6 +145,7 @@ The wallet was 100% recoverable by transcribing the information on the burnt ste
 <p align="center">
 <img src="assets/backup21.png">
 <img src="assets/backup22.png">
+<img src="assets/backup23.png">
 </p>
 
 As an example of the error correction in action, you will notice that some dots were mis-stamped in segment B6 when transcribing the QR code to the steel plate. The dots were later re-stamped in the correct place, all three variations of the QR code produced the same seed. 
