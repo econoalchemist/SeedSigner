@@ -34,4 +34,4 @@ One helpful feature of SeedSigner is that the required components are widely ava
 ## Video Summary
 This video demonstrates a high-level overview of the content within this guide. The video is not meant as a replacement for the information in this guide, only as a supplemental visual assistant that demonstrates testing, assembly, generating a seed, entering a passphrase, backing up a seed via QR code, and fire-testing the steel plate.
 
-[![SeedSigner Demo](/assets/VideoThumbnail00.png)](https://media.econoalchemist.com/w/vB4LuA7Ehx7J19qoUmtfN8 "SeedSigner Demo")
+[![SeedSigner Demo](/assets/VideoThumbnail00.png)](https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU "SeedSigner Demo")
