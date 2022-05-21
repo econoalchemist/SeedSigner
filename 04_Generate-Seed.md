@@ -85,3 +85,25 @@ From the main menu navigate to `Seeds` > `+ Create a seed` > `Calc 12th/24th wor
 <img width="500" src="assets/seedgen17.png">
 <img width="500" src="assets/seedgen18.png">
 </p>
+
+On the next screen you can start entering the first 11-words for a 12-word mnemonic or the first 23-words for a 24-word mnemonic. Start by enteering the first letter of the desired word, the available letters to choose from for the next letter will be reduced the only options based on the BIP39 word list. You can also scroll up or down through a list on the right-hand side of the screen using the `KEY1` and `KEY3` buttons on the HAT display. When you find the word you want, push `KEY2` on the HAT display to select that word and move on to the next one. Continue this process untill all 11 or 23 words have been entered. 
+
+<p align="center">
+<img width="500" src="assets/seedgen19.png">
+<img width="500" src="assets/seedgen20.png">
+</p>
+
+After the 11th or 23rd word has been entered, the SeedSigner will display the final word. You will have the option to load that seed into the SeedSigners active memory and apply an optional passphrase as well.  
+
+![](assets/seedgen21.png)
+
+You can also import a pre existing 12-word or 24-word mnemonic in its entirety. From the main menu, navigate to `Seeds` > then select `Enter 24-word seed` or `Enter 12-word seed`. Then follow the same process above, selecting the first letter of each word until you find the desired word and pressing `KEY2` on the HAT display to select that word. If you enter a word incorrectly, the calculated checksum will be incorrect and the SeedSigner will alert you. 
+
+<p align="center">
+<img width="500" src="assets/seedgen22.png">
+<img width="500" src="assets/seedgen23.png">
+</p>
+
+Once all the words have been entered you will be presented with the wallet fingerprint and given the option to apply an optional passphrase. 
+
+![](assets/seedgen24.png)
