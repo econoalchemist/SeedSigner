@@ -15,10 +15,10 @@ As mentioned, the randomness with the image method is a combination of informati
 From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"camera icon" New seed`. This will activate the camera, during this time prior to you taking the image, the SeedSigner is capturing frames and using information from these frames to include in the generation of your master seed. 
 
 <p align="center">
-<img src="assets/seedgen00.png">
-<img src="assets/seedgen01.png">
-<img src="assets/seedgen02.png">
-<img src="assets/seedgen03.png">
+<img width="500" src="assets/seedgen00.png">
+<img width="500" src="assets/seedgen01.png">
+<img width="500" src="assets/seedgen02.png">
+<img width="500" src="assets/seedgen03.png">
 </p>
   
 Take an image of something unique. The SeedSigner will display the captured image and then you will have a choice to `reshoot` or `accept`, move the joystick in the appropriate direction for your decision. 
@@ -37,5 +37,31 @@ Next, you will be asked which mnemonic length you want to use, 12-words or 24-wo
 
 Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
 
+<p align="center">
+<img src="assets/seedgen07A.png">
+</p>  
+
 ## With Dice
 Randomness with dice rolls is calculated by `log2(6) = 2.58 bits of entropy`, this is why it takes 50 rolls for 128 bits or 99 rolls for 256 bits: `log2(6)*99 = 255.9`. By rolling a dice 99 times, you are providing the randomness necessary to create a random number that is impossible to guess. 
+
+From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"dice icon" New seed`. Then select which mnemonic length you want to use, 12-words or 24-words. Accept the warning telling you that this information needs to remain private and secure.  
+
+<p align="center">
+<img width="500" src="assets/seedgen08.png">
+<img width="500" src="assets/seedgen09.png">
+<img width="500" src="assets/seedgen10.png">
+<img width="500" src="assets/seedgen11.png">
+</p>
+
+Next, you can roll your dice and then enter the result by selecting that number on the SeedSigner screen and pushing the joystick. Repeat this process for all of your rolls.   
+
+<p align="center">
+<img width="500" src="assets/seedgen12.png">
+<img width="500" src="assets/seedgen13.png">
+</p>
+  
+When you enter the last roll, the SeedSigner will display the warning about sharing this information. Accept the warning telling you that this information needs to remain private and secure. Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
+
+<p align="center">
+<img src="assets/seedgen14.png">
+</p>
