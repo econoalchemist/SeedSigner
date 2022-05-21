@@ -24,22 +24,24 @@ From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"camer
 Take an image of something unique. The SeedSigner will display the captured image and then you will have a choice to `reshoot` or `accept`, move the joystick in the appropriate direction for your decision. 
 
 <p align="center">
-<img src="assets/seedgen04.png">
-<img src="assets/seedgen05.png">
+<img width="500" src="assets/seedgen04.png">
+<img width="500" src="assets/seedgen05.png">
 </p>
 
 Next, you will be asked which mnemonic length you want to use, 12-words or 24-words. Accept the warning telling you that this information needs to remain private and secure. 
 
 <p align="center">
-<img src="assets/seedgen06.png">
-<img src="assets/seedgen07.png">
+<img width="500" src="assets/seedgen06.png">
+<img width="500" src="assets/seedgen07.png">
 </p>
 
-Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
+Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. 
 
 <p align="center">
 <img src="assets/seedgen07A.png">
-</p>  
+</p>
+
+Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
 
 ## With Dice
 Randomness with dice rolls is calculated by `log2(6) = 2.58 bits of entropy`, this is why it takes 50 rolls for 128 bits or 99 rolls for 256 bits: `log2(6)*99 = 255.9`. By rolling a dice 99 times, you are providing the randomness necessary to create a random number that is impossible to guess. The dice method will give you a choice between 128 bits/50 rolls/12-words or 256 bits/99 rolls24-words.    
@@ -60,8 +62,10 @@ Next, you can roll your dice and then enter the result by selecting that number 
 <img width="500" src="assets/seedgen13.png">
 </p>
   
-When you enter the last roll, the SeedSigner will display the warning about sharing this information. Accept the warning telling you that this information needs to remain private and secure. Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
+When you enter the last roll, the SeedSigner will display the warning about sharing this information. Accept the warning telling you that this information needs to remain private and secure. Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. 
 
 <p align="center">
 <img src="assets/seedgen14.png">
 </p>
+
+Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
