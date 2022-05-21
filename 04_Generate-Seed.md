@@ -77,4 +77,11 @@ You can also calculate the last word of a mnemonic phrase with the SeedSigner. A
 
 SeedSigner can calculate this checksum for you and tell you what the 12th or 24th word is based on the rest of the proceeding mnemonic. This may be helpful if you have a mnemonic phrase that is missing the last word, or if you want to double check a mnemonic, or if you want to pick your own words from the BIP39 list. Although, picking your own words from the BIP39 list will probably not be as random as using the Random Number Generator found in tools like the SeedSigner. 
 
-From the main menu navigate to `Seeds` > `+ Create a seed` > `Calc 12th/24th word`
+From the main menu navigate to `Seeds` > `+ Create a seed` > `Calc 12th/24th word` > select mnemonic length `12 words` or `24 words`. 
+
+<p align="center">
+<img width="500" src="assets/seedgen15.png">
+<img width="500" src="assets/seedgen16.png">
+<img width="500" src="assets/seedgen17.png">
+<img width="500" src="assets/seedgen18.png">
+</p>
