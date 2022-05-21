@@ -35,7 +35,7 @@ Next, you will be asked which mnemonic length you want to use, 12-words or 24-wo
 <img src="assets/seedgen07.png">
 </p>
 
-Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section 
+Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
 
 ## With Dice
 Randomness with dice rolls is calculated by `log2(6) = 2.58 bits of entropy`, this is why it takes 50 rolls for 128 bits or 99 rolls for 256 bits: `log2(6)*99 = 255.9`. By rolling a dice 99 times, you are providing the randomness necessary to create a random number that is impossible to guess. 
