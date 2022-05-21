@@ -69,3 +69,12 @@ When you enter the last roll, the SeedSigner will display the warning about shar
 </p>
 
 Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
+
+## Importing a Seed
+The SeedSigner can also import a pre-existing mnemonic phrase of either 12-word or 24-word length.
+
+You can also calculate the last word of a mnemonic phrase with the SeedSigner. A 256-bit number is not quite long enough to generate 24-words. Each word represents 11-bits of the original 128-bit or 256-bit master seed. Each 11-bit segment translates to a numeric value on an index from 0 to 2,047. Each of the 2,048 words on the BIP39 list corresponds to a different numeric value on this index. For example, `256 ÷ 11 = 23.27` but the mnemonic is 24-words or `128 ÷ 11 = 11.63` but the mnemonic is 12-words. The original master seed is hashed with the SHA256 algorithm, that hash value is hashed again. For a 128-bit master seed, the last 4-bits from that secondary hash value is appended to the end of the first hash value; for a 256-bit master seed, the last 8-bits from that secondary hash value is appended to the end of the first hash value. This provides a checksum, so really your 12th or 24th word is actually a checksum that the rest of the proceeding mnemonic is correct. When you add 4-bits to 128-bits you get 132-bits which equals 12 11-bit words. When you add 8-bits to 256-bits you get 264-bits which equals 24 11-bit words. 
+
+SeedSigner can calculate this checksum for you and tell you what the 12th or 24th word is based on the rest of the proceeding mnemonic. This may be helpful if you have a mnemonic phrase that is missing the last word, or if you want to double check a mnemonic, or if you want to pick your own words from the BIP39 list. Although, picking your own words from the BIP39 list will probably not be as random as using the Random Number Generator found in tools like the SeedSigner. 
+
+From the main menu navigate to `Seeds` > `+ Create a seed` > `Calc 12th/24th word`
