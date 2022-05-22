@@ -101,7 +101,9 @@ On the next screen you can start entering the first 11-words for a 12-word mnemo
 
 After the 11th or 23rd word has been entered, the SeedSigner will display the final word. You will have the option to load that seed into the SeedSigner’s active memory and apply an optional passphrase as well.  
 
-![](assets/seedgen21.png)
+<p align="center">
+<img src="assets/seedgen21.png">
+</p>  
 
 # Importing a Mnemonic Phrase
 You can also import a pre-existing 12-word or 24-word mnemonic in its entirety. From the main menu, navigate to `Seeds` > then select `Enter 24-word seed` or `Enter 12-word seed`. Then follow the same process above, selecting the first letter of each word until you find the desired word and pressing `KEY2` on the HAT display to select that word. If you enter a word incorrectly, the calculated checksum will be incorrect and the SeedSigner will alert you. 
@@ -113,5 +115,7 @@ You can also import a pre-existing 12-word or 24-word mnemonic in its entirety. 
 
 Once all the words have been entered you will be presented with the wallet fingerprint and given the option to apply an optional passphrase. 
 
-![](assets/seedgen24.png)
+<p align="center">
+<img src="assets/seedgen24.png">
+</p>  
 
