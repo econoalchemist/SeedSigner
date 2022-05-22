@@ -58,6 +58,8 @@ Once your node finishing scanning for any transactions (automatic process), you 
 
 Once you make a deposit, the transaction should show up right away in Sparrow Wallet as `Unconfirmed` until it receives some block confirmations. Once this deposit is made, a signature from your SeedSigner will be required to spend it. 
 
+![](assets/sparrow07.png)
+
 # Creating A PSBT
 Once you have bitcoin deposited to your wallet, you can create a Partially Signed Bitcoin Transaction (PSBT) in Sparrow Wallet. Then you can exchange QR codes back and forth between the SeedSigner and Sparrow Wallet to sign the transaction air-gapped with your SeedSigner. 
 
@@ -123,3 +125,53 @@ Once your transaction is broadcast to the Bitcoin network, then you can use your
 
 ![](assets/psbt14.png)
 
+# Importing Private Key
+As of Sparrow Wallet version 1.6.4, you can scan your private key QR code and import to Sparrow Wallet. Keep in mind that if you are running Sparrow Wallet on a network connected device then this will make your wallet no longer air-gapped. This can be useful for quickly generating your wallet, constructing a transaction, and broadcasting it without having to pass details back and forth to the SeedSigner. Sparrow Wallet will not save the wallet file, so once you close this wallet, it will be gone from memory. 
+
+## Step 1: Initiate Import
+In Sparrow Wallet, navigate to `File` > `Import Wallet`
+
+![](assets/sparrow08.png)
+
+## Step 2: Select Method
+A window will pop up with several import options. On the `Mnemonic Words` option, click on the drop-down menu and choose `Scan QR`.
+
+![](assets/sparrow09.png)
+
+## Step 3: Scan QR Code
+Your webcam should automatically launch, hold up your SeedSigner private key QR code so Sparrow Wallet can gather the details. 
+
+![](assets/sparrow10.png)
+
+## Step 4: Passphrase
+If you have a passphrase applied to your wallet, enter it now. Then click on `Discover Wallet`.
+
+## Step 5: Name Wallet
+Then you will be asked to name your new wallet. Once you have entered a name, click on `Create Wallet`.
+
+![](assets/sparrow12.png)
+
+## Step 6: Add Password
+Optionally, you can add a password to protect this wallet file. This password should not be cobnfused with your _passphrase_. This password will encrypt the wallet file saved on your PC. 
+
+![](assets/sparrow13.png)
+
+## Step 7: Confirm Passphrase
+You will then be asked to confirm the passphrase you entered. 
+
+![](assets/sparrow14.png)
+
+Now you have a fully functional wallet from your SeedSigner now live in Sparrow Wallet. Remember, if you are using Sparrow Wallet on a network connected PC then this is no longer an air-gapped wallet. However, you can now quickly construct and broadcast transactions. 
+
+![](assets/sparrow15.png)
+
+Another benefit is that now you can find your PayNym to start making collaborative transactions and you can use the Sparrow Wallet Whirlpool implementation for the privacy benfits.
+
+Navigate to `Tools` > `Show PayNym`. 
+![](assets/sparrow16.png)
+
+Then click on `Retrieve PayNym`:
+
+![](assets/sparrow17.png)
+
+To learn more about making collaborative transactions or using Whirlpool, check out the [Documents section of Sparrow Wallet website](https://www.sparrowwallet.com/docs/mixing-whirlpool.html) or the [Privacy section of the Bitcoiner.Guide website](https://bitcoiner.guide/articles/).
