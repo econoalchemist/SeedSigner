@@ -1,7 +1,7 @@
 # Hardware
 This section demonstrates how to test and assemble the SeedSigner kit and also provides details on what each component is and alternative places to purchase these components in case you do not want to purchase the whole kit from one vendor. Best practice is to test that your components power on and the SeedSigner software works prior to assembly. The enclosure and or components can be damaged if you attempt disassembly. 
 
-## Enclosure
+## The Enclosure
 The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed, you can even [download the file](https://github.com/SeedSigner/seedsigner/tree/main/enclosures/open_pill) and print one yourself. 
 
 The enclosure outer dimensions are 80mm x 35mm x 26mm and there are a number of retention bumps, support ledges, and journals to fit the components snugly inside.  
@@ -16,7 +16,7 @@ If you do not want to get the complete kit, you can buy a stand alone enclosure 
 - Worldwide delivery available from [Robotechy](https://robotechy.com/collections/frontpage/products/seedsigner-3d-printed-pill-case)
 - EU/UK delivery available from [GoBrrr](https://www.gobrrr.me/product/seedsigner-lilpill-case/?v=7516fd43adaa), [DIYNodes](https://diynodes.com/product/seedsigner-3d-printed-orange-pill-case/), & [AnchorHodl](https://anchorhodl.com/product/retro-pill-case-for-seedsigner)
 
-## Raspberry Pi Camera & Cable
+## The Camera & Cable
 The camera is a 5MP OV5647 Sensor, 30 FPS, 2592x1944 resolution video camera module designed for a range of RaspberryPis. The working voltage is 1.7vdc ~ 3vdc. This module measures 25mm x 24mm x 9mm. The camera ships with a protective film over the lens, be sure to remove this prior to assembly.
 ![](assets/hardware03.jpg)
 
@@ -31,7 +31,7 @@ If you do not want to get the complete kit, you can buy a stand alone camera & c
 - North America delivery available from [Amazon](https://www.amazon.com/dp/B07RXKZ1KN?th=1)
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-camera-i2659578273-s12654014174.html?spm=a2o4l.seller.list.4.111a346bP5V0no&mp=1&freeshipping=1)
 
-## RaspberryPi Zero v1.3
+## The RaspberryPi Zero v1.3
 The RaspberryPi Zero is the smallest single board computer RaspberryPi manufactures. The v1.3 computer features a 1Ghz single-core CPU, 512MB of RAM, mini-HDMI port, one microUSB port for power only, one microUSB port for data transfer, a HAT-compatible 40-pin header, composit video & reset headers, a microSD card slot, and a CSI camera connector. The full hardware specification can be found [here](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html). 
 
 ![](assets/hardware07.jpg)
@@ -46,7 +46,7 @@ If you do not want to get the complete kit, you can buy a stand alone RaspberryP
 - North American delivery available from [Adafruit](https://www.adafruit.com/product/2885)
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-zero-version-13-i2659573158-s12653906040.html?spm=a2o4l.seller.list.1.111a346bP5V0no&mp=1&freeshipping=1)
 
-## WaveShare LCD HAT Display
+## The WaveShare LCD HAT Display
 The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attaches to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three push-buttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
 
 ![](assets/hardware09.jpg)
