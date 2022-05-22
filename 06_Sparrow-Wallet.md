@@ -126,7 +126,7 @@ Once your transaction is broadcast to the Bitcoin network, then you can use your
 ![](assets/psbt14.png)
 
 # Importing Private Key
-As of Sparrow Wallet version 1.6.4, you can scan your private key QR code and import to Sparrow Wallet. Keep in mind that if you are running Sparrow Wallet on a network connected device then this will make your wallet no longer air-gapped. This can be useful for quickly generating your wallet, constructing a transaction, and broadcasting it without having to pass details back and forth to the SeedSigner. Sparrow Wallet will not save the wallet file, so once you close this wallet, it will be gone from memory. 
+As of Sparrow Wallet version 1.6.4, you can scan your private key QR code and import to Sparrow Wallet. Keep in mind that if you are running Sparrow Wallet on a network connected device then this will make your wallet no longer air-gapped. This can be useful for quickly generating your wallet, constructing a transaction, and broadcasting it without having to pass details back and forth to the SeedSigner.
 
 ## Step 1: Initiate Import
 In Sparrow Wallet, navigate to `File` > `Import Wallet`
