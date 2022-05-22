@@ -7,10 +7,10 @@ First, create as many new seeds as you want for your multisig quorum. Follow the
 In this example, four new seeds were generated to construct a 4-of-4 multisig. A passphrase was applied to each one.  
 
 <p align="center">
-  <img width="500" src"assets/multisig00.png">
-  <img width="500" src"assets/multisig01.png">
-  <img width="500" src"assets/multisig02.png">
-  <img width="500" src"assets/multisig03.png">
+  <img width="500" src"assets/multisig00.jpg">
+  <img width="500" src"assets/multisig01.jpg">
+  <img width="500" src"assets/multisig02.jpg">
+  <img width="500" src"assets/multisig03.jpg">
 </p>  
 
 ## Step 2: Create MultiSig Wallet in Sparrow
@@ -42,26 +42,26 @@ Once you click on `Airgapped Hardware Wallet`, a window will pop up with several
 - Accept the warning about the potential privacy leak exporting your xpub poses. 
 
 <p align="center">
-  <img width="500" src"assets/multisig08.png">
-  <img width="500" src"assets/multisig09.png">
-  <img width="500" src"assets/multisig10.png">
-  <img width="500" src"assets/multisig11.png">
-  <img width="500" src"assets/multisig12.png">
-  <img width="500" src"assets/multisig13.png">
+  <img width="500" src"assets/multisig08.jpg">
+  <img width="500" src"assets/multisig09.jpg">
+  <img width="500" src"assets/multisig10.jpg">
+  <img width="500" src"assets/multisig11.jpg">
+  <img width="500" src"assets/multisig12.jpg">
+  <img width="500" src"assets/multisig13.jpg">
 </p>  
 
-Step 6: Confirm Details
+## Step 6: Confirm Details
 SeedSigner will display the details of what you are about to export. Look them over and confirm everything is correct. You want to ensure that the displayed fingerprint matches the passphrase-applied fingerprint you have written down. 
 
-![](assets/multisig14.png)
+![](assets/multisig14.jpg)
 
-Step 7: Import Xpub
+## Step 7: Import Xpub
 The SeedSigner will start to flash a series of animated QR codes that contain your xpub information. Hold this up to your PC webcam so that Sparrow Wallet can gather the details necessary to import your first cosigner. 
 
-![](assets/multisig15.png)
+![](assets/multisig15.jpg)
 ![](assets/multisig16.png)
 
-Step 8: Confirm & Repeat
+## Step 8: Confirm & Repeat
 Once Sparrow Wallet gets the details that it needs, it will populate several fields under the first keystore tab. Double check that this information is correct, taking care to ensure the fingerprint it correct. If everything looks good, then click on the second keystore tab and repeat that process with your second cosigner, then again for your third, and so on. 
 
 ![](assets/multisig17.png)
