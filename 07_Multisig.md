@@ -7,10 +7,10 @@ First, create as many new seeds as you want for your multisig quorum. Follow the
 In this example, four new seeds were generated to construct a 4-of-4 multisig. A passphrase was applied to each one.  
 
 <p align="center">
-  <img width="500" src"assets/multisig00.jpg">
-  <img width="500" src"assets/multisig01.jpg">
-  <img width="500" src"assets/multisig02.jpg">
-  <img width="500" src"assets/multisig03.jpg">
+  <img width="500" src="assets/multisig00.jpg">
+  <img width="500" src="assets/multisig01.jpg">
+  <img width="500" src="assets/multisig02.jpg">
+  <img width="500" src="assets/multisig03.jpg">
 </p>  
 
 ## Step 2: Create MultiSig Wallet in Sparrow
@@ -42,12 +42,12 @@ Once you click on `Airgapped Hardware Wallet`, a window will pop up with several
 - Accept the warning about the potential privacy leak exporting your xpub poses. 
 
 <p align="center">
-  <img width="500" src"assets/multisig08.jpg">
-  <img width="500" src"assets/multisig09.jpg">
-  <img width="500" src"assets/multisig10.jpg">
-  <img width="500" src"assets/multisig11.jpg">
-  <img width="500" src"assets/multisig12.jpg">
-  <img width="500" src"assets/multisig13.jpg">
+  <img width="500" src="assets/multisig08.jpg">
+  <img width="500" src="assets/multisig09.jpg">
+  <img width="500" src="assets/multisig10.jpg">
+  <img width="500" src="assets/multisig11.jpg">
+  <img width="500" src="assets/multisig12.jpg">
+  <img width="500" src="assets/multisig13.jpg">
 </p>  
 
 ## Step 6: Confirm Details
