@@ -86,7 +86,7 @@ Then click on `Finalize Transaction for Signing`.
 
 ![](assets/multisig21.png)
 
-Then you will have the option to display the transaction QR code so that you can scan it from the SeedSigner with the appropriate cosigners loaded. You will have to do each one individually. Once the SeedSigner receives the information it needs, it will display the signed PSBT as an animated QR code to be scanned by your PC webcam for Sparrow Wallet to receive. This is the same process used for signing transactions covered in the "XXX" section, only you have to do it for as many minimum number of cosigners you have set on your multisig wallet. 
+Then you will have the option to display the transaction QR code so that you can scan it from the SeedSigner with the appropriate cosigners loaded. You will have to do each one individually. Once the SeedSigner receives the information it needs, it will display the signed PSBT as an animated QR code to be scanned by your PC webcam for Sparrow Wallet to receive. This is the same process used for signing transactions covered in the "Sparrow-Wallet" section, only you have to do it for as many minimum number of cosigners you have set on your multisig wallet. 
 
 ![](assets/multisig22.png)
 ![](assets/multisig23.png)
