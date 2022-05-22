@@ -111,7 +111,7 @@ You can also import a pre-existing 12-word or 24-word mnemonic in its entirety. 
 <p align="center">
 <img width="500" src="assets/seedgen22.png">
 <img width="500" src="assets/seedgen19.png">
-<img width="500" src="assets/seedgen20.png">
+<img width="500" src="assets/seedgen25.png">
 <img width="500" src="assets/seedgen23.png">
 </p>
 
