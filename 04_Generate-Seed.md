@@ -1,5 +1,5 @@
 # Generate a New Seed
-This section will demonstrate how you can generate a new master seed with the SeedSigner. The master seed is just a number, a really long and random number. In fact, this number is so long and random that it can be considered truley unique. Practically speaking, the only place in the universe this number exists is on your SeedSigner when you create it. For all intents and purposes, for someone to guess this number would be like guessing the exact same atom from the entire observable universe that you secretely picked. 
+This section will demonstrate how you can generate a new master seed with the SeedSigner. The master seed is just a number, a really long and random number. In fact, this number is so long and random that it can be considered truly unique. Practically speaking, the only place in the universe this number exists is on your SeedSigner when you create it. For all intents and purposes, for someone to guess this number would be like guessing the exact same atom from the entire observable universe that you secretly picked. 
 
 This really long random number is used in some clever cryptographic functions to deterministically derive your Bitcoin wallet private/public key pairs, in other words this is how you can generate many receiving addresses and spend from them. There are several ways to represent these long random numbers; binary ones and zeros, hexadecimal 0-9/A-F, a QR code, or even a list of words. Humans have a difficult time handling a numeric representation that is as abstract as 256 ones and zeros, this is why the word lists (or mnemonic phrases) are a popular solution. The long random number is turned into a list of words that are easier for the user to write down and interpret later with accuracy.
 
@@ -7,7 +7,7 @@ If you want to learn more about the processes used with Hierarchical Determinist
 
 Your SeedSigner can communicate this number to you in the form of a list of English words or a QR code; both methods contain the same information, your master seed. Keep in mind that anyone who gains access to this master seed information can use it to re-create your Bitcoin wallet and take the bitcoin from it, so be sure to handle this information securely and privately. 
 
-You will have a couple choices when creating a new seed, capture an image or roll some dice. Both processes involve randomness, which is a key element in creating a secure master seed that cannot be guessed. The randomness of the image-method involves taking information from several frames prior to the image itself along with some information in the image. The randomness of the dice rolls is pretty self explainatory, best practice is to use a balanced dice. Another best practice is to use a 256 bit number for your master seed which translates to a 24-word mnmonic, the 12-word mnemonics are made from 128 bits. 
+You will have a couple choices when creating a new seed, capture an image or roll some dice. Both processes involve randomness, which is a key element in creating a secure master seed that cannot be guessed. The randomness of the image-method involves taking information from several frames prior to the image itself along with some information in the image. The randomness of the dice rolls is pretty self explanatory, best practice is to use a balanced dice. Another best practice is to use a 256 bit number for your master seed which translates to a 24-word mnemonic, the 12-word mnemonics are made from 128 bits. 
 
 ## With Camera
 As mentioned, the randomness with the image method is a combination of information taken from several frames prior to the actual image itself plus some information from the image. No two images will be exactly the same and they will all produce drastically different master seeds. 
@@ -86,18 +86,18 @@ From the main menu navigate to `Seeds` > `+ Create a seed` > `Calc 12th/24th wor
 <img width="500" src="assets/seedgen18.png">
 </p>
 
-On the next screen you can start entering the first 11-words for a 12-word mnemonic or the first 23-words for a 24-word mnemonic. Start by enteering the first letter of the desired word, the available letters to choose from for the next letter will be reduced the only options based on the BIP39 word list. You can also scroll up or down through a list on the right-hand side of the screen using the `KEY1` and `KEY3` buttons on the HAT display. When you find the word you want, push `KEY2` on the HAT display to select that word and move on to the next one. Continue this process untill all 11 or 23 words have been entered. 
+On the next screen you can start entering the first 11-words for a 12-word mnemonic or the first 23-words for a 24-word mnemonic. Start by entering the first letter of the desired word, the available letters to choose from for the next letter will be reduced the only options based on the BIP39 word list. You can also scroll up or down through a list on the right-hand side of the screen using the `KEY1` and `KEY3` buttons on the HAT display. When you find the word you want, push `KEY2` on the HAT display to select that word and move on to the next one. Continue this process until all 11 or 23 words have been entered. 
 
 <p align="center">
 <img width="500" src="assets/seedgen19.png">
 <img width="500" src="assets/seedgen20.png">
 </p>
 
-After the 11th or 23rd word has been entered, the SeedSigner will display the final word. You will have the option to load that seed into the SeedSigners active memory and apply an optional passphrase as well.  
+After the 11th or 23rd word has been entered, the SeedSigner will display the final word. You will have the option to load that seed into the SeedSigner’s active memory and apply an optional passphrase as well.  
 
 ![](assets/seedgen21.png)
 
-You can also import a pre existing 12-word or 24-word mnemonic in its entirety. From the main menu, navigate to `Seeds` > then select `Enter 24-word seed` or `Enter 12-word seed`. Then follow the same process above, selecting the first letter of each word until you find the desired word and pressing `KEY2` on the HAT display to select that word. If you enter a word incorrectly, the calculated checksum will be incorrect and the SeedSigner will alert you. 
+You can also import a pre-existing 12-word or 24-word mnemonic in its entirety. From the main menu, navigate to `Seeds` > then select `Enter 24-word seed` or `Enter 12-word seed`. Then follow the same process above, selecting the first letter of each word until you find the desired word and pressing `KEY2` on the HAT display to select that word. If you enter a word incorrectly, the calculated checksum will be incorrect and the SeedSigner will alert you. 
 
 <p align="center">
 <img width="500" src="assets/seedgen22.png">
@@ -107,3 +107,4 @@ You can also import a pre existing 12-word or 24-word mnemonic in its entirety. 
 Once all the words have been entered you will be presented with the wallet fingerprint and given the option to apply an optional passphrase. 
 
 ![](assets/seedgen24.png)
+
