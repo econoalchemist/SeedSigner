@@ -29,7 +29,7 @@ In this example, four new seeds were generated to construct a 4-of-4 multisig. A
 ![](assets/multisig06.png)
 
 ## Step 4: Initiate PC Webcam
-Once you click on `Airgapped Hardware Wallet`, a window will pop up with several options, next to the SeedSigner icon, click on `Scan`. Thiswill launch your PC webcam. 
+Once you click on `Airgapped Hardware Wallet`, a window will pop up with several options, next to the SeedSigner icon, click on `Scan`. This will launch your PC webcam. 
 
 ![](assets/multisig07.png)
 
@@ -66,7 +66,7 @@ Once Sparrow Wallet gets the details that it needs, it will populate several fie
 
 ![](assets/multisig17.png)
 
-Step 9: Finalize
+## Step 9: Finalize
 Once you have all of your cosigners imported, click on `Apply`. 
 
 ![](assets/multisig18.png)
@@ -75,8 +75,8 @@ If you want to add an optional password, you can do so when Sparrow Wallet promp
 
 ![](assets/multisig19.png)
 
-## Spending
-Your new multisig wallet is now ready to deposit to. You can generate receive addresses from Sparrow Wallet and deposit bitcoin. You will need your minimum number of cosigners to each sign the transaction to spend bitcoin deposited to this mulyisig wallet. 
+# Spending
+Your new multisig wallet is now ready to deposit to. You can generate receive addresses from Sparrow Wallet and deposit bitcoin. You will need your minimum number of cosigners to each sign the transaction to spend bitcoin deposited to this multisig wallet. 
 
 When you want to spend your bitcoin, navigate to the `Send` tab in Sparrow Wallet and fill out the address you wish to spend to, add a label, set the amount to spend, and select a miner fee rate. Then click on `Create Transaction`.
 
@@ -91,7 +91,7 @@ Then you will have the option to display the transaction QR code so that you can
 ![](assets/multisig22.png)
 ![](assets/multisig23.png)
 
-## Example
+# Example
 To spread awarness of SeedSigner, Sparrow Wallet, & multisig wallet; 100,000 sats were depsoited to the 4-of-4 multisig wallet in this guide. You can see the transaction here: [mempool.space](https://mempool.space/tx/dec20d2e6e3ce792124ddd738473e60ac7cf5444b3d24e78dff5871a6528c2bc).
 
 The scavenger hunt was announced on Twitter here: [econoalchemist](https://twitter.com/econoalchemist/status/1528497446606606336?s=20&t=l_egT555rddanOrEqpAplQ).
