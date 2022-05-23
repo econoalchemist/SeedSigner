@@ -5,9 +5,11 @@ This section demonstrates how to test and assemble the SeedSigner kit and also p
 The enclosure included in the kit is an open-face design, alternative designs are available from vendors linked below. The enclosure is 3D printed, you can even [download the file](https://github.com/SeedSigner/seedsigner/tree/main/enclosures/open_pill) and print one yourself. Be sure to check out some [community designs](https://github.com/SeedSigner/seedsigner#community-designs) as well. The enclosure featured here is designed to be the most basic enclosure and the quickest to reproduce. Varius enclosure design files can be downloaded from [here](https://github.com/SeedSigner/seedsigner/tree/main/enclosures) or there are a number of distributors that offer alternate designs [here](https://www.cryptocloaks.com/product/seed-signer-pill/), [here](https://btc-hardware-solutions.square.site/s/shop), & [here](https://robotechy.com/collections/frontpage). 
 
 The enclosure outer dimensions are 80mm x 35mm x 26mm and there are a number of retention bumps, support ledges, and journals to fit the components snugly inside.  
+
 ![](assets/hardware00.jpg)
 
 The enclosure also features openings for the camera lens, microUSB ports, HDMI port, and MicroSD card port.
+
 ![](assets/hardware01.jpg)
 
 If you do not want to get the complete kit, you can buy a stand alone enclosure of various designs from the following vendors:
@@ -18,6 +20,7 @@ If you do not want to get the complete kit, you can buy a stand alone enclosure 
 
 ## The Camera & Cable
 The camera is a 5MP OV5647 Sensor, 30 FPS, 2592x1944 resolution video camera module designed for a range of RaspberryPis. The working voltage is 1.7vdc ~ 3vdc. This module measures 25mm x 24mm x 9mm. The camera ships with a protective film over the lens, be sure to remove this prior to assembly.
+
 ![](assets/hardware03.jpg)
 
 ![](assets/hardware04.jpg)
@@ -37,6 +40,7 @@ The RaspberryPi Zero is the smallest single board computer RaspberryPi manufactu
 ![](assets/hardware07.jpg)
 
 The RaspberryPi Zero measures 66mm x 31mm x 11mm. 
+
 ![](assets/hardware08.jpg)
 
 If you do not want to get the complete kit, you can buy a stand alone RaspberryPi Zero from the following vendors:
@@ -114,6 +118,7 @@ Gather your tested components. You should have the 3D printed enclosure, Raspber
 Remove the protective layer of film from the camera lens. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.  
 
 ![](assets/assembly01.png)
+
 ![](assets/assembly02.png)
 
 ## Step 3: Raspberry Pi Zero
