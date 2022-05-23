@@ -152,6 +152,8 @@ Your webcam should automatically launch, hold up your SeedSigner private key QR 
 ## Step 4: Passphrase
 If you have a passphrase applied to your wallet, enter it now. Then click on `Discover Wallet`.
 
+![](assets/sparrow11.png)
+
 ## Step 5: Name Wallet
 Then you will be asked to name your new wallet. Once you have entered a name, click on `Create Wallet`.
 
@@ -174,10 +176,13 @@ Now you have a fully functional wallet from your SeedSigner now live in Sparrow 
 Another benefit is that now you can find your PayNym to start making collaborative transactions and you can use the Sparrow Wallet Whirlpool implementation for the privacy benfits.
 
 Navigate to `Tools` > `Show PayNym`. 
+
 ![](assets/sparrow16.png)
 
 Then click on `Retrieve PayNym`:
 
 ![](assets/sparrow17.png)
+
+![](assets/sparrow18.png)
 
 To learn more about making collaborative transactions or using Whirlpool, check out the [Documents section of Sparrow Wallet website](https://www.sparrowwallet.com/docs/mixing-whirlpool.html) or the [Privacy section of the Bitcoiner.Guide website](https://bitcoiner.guide/articles/).
