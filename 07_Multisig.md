@@ -92,6 +92,6 @@ Then you will have the option to display the transaction QR code so that you can
 ![](assets/multisig23.png)
 
 # Example
-To spread awarness of SeedSigner, Sparrow Wallet, & multisig wallet; 100,000 sats were depsoited to the 4-of-4 multisig wallet in this guide. You can see the transaction here: [mempool.space](https://mempool.space/tx/dec20d2e6e3ce792124ddd738473e60ac7cf5444b3d24e78dff5871a6528c2bc).
+To spread awareness of SeedSigner, Sparrow Wallet, & multisig wallet; 100,000 sats were deposited to the 4-of-4 multisig wallet in this guide. You can see the transaction here: [mempool.space](https://mempool.space/tx/dec20d2e6e3ce792124ddd738473e60ac7cf5444b3d24e78dff5871a6528c2bc).
 
 The scavenger hunt was announced on Twitter here: [econoalchemist](https://twitter.com/econoalchemist/status/1528497446606606336?s=20&t=l_egT555rddanOrEqpAplQ).
