@@ -23,7 +23,7 @@ The following instructions make an assumption that you already use Kleopatra fro
 
 ![](assets/software02.png)
 
-- You should receive a dialog that informs you the certificate was imported sucessfully. Click on `OK`.
+- You should receive a dialog that informs you the certificate was imported successfully. Click on `OK`.
 - Now you can compare the fingerprint in Kleopatra to a known publicly displayed fingerprint such as [SeedSigner's Twitter profile](https://twitter.com/SeedSigner).
 
 ![](assets/software03.png)
@@ -105,7 +105,7 @@ Before proceeding, ensure you have the `.zip` file, `.sha256` file, and `.sig` f
 
 - Now you can verify the hash value with `shasum -a 256 -c seedsigner_0_5_0.img.zip.sha256`. Again, making sure to use the version appropriate for you.
 - The terminal should print `seedsigner_0_5_0.img.zip: OK`.
-- You can ignore the warning about improperly formated lines if you get it.
+- You can ignore the warning about improperly formatted lines if you get it.
 
 <p align="center">
  <img src="assets/software14.png">
