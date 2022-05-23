@@ -35,7 +35,7 @@ If you do not want to get the complete kit, you can buy a stand alone camera & c
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-camera-i2659578273-s12654014174.html?spm=a2o4l.seller.list.4.111a346bP5V0no&mp=1&freeshipping=1)
 
 ## The RaspberryPi Zero v1.3
-The RaspberryPi Zero is the smallest single board computer RaspberryPi manufactures. The v1.3 computer features a 1Ghz single-core CPU, 512MB of RAM, mini-HDMI port, one microUSB port for power only, one microUSB port for data transfer, a HAT-compatible 40-pin header, composit video & reset headers, a microSD card slot, and a CSI camera connector. The full hardware specification can be found [here](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html). 
+The RaspberryPi Zero is the smallest single board computer RaspberryPi manufactures. The v1.3 computer features a 1Ghz single-core CPU, 512MB of RAM, mini-HDMI port, one microUSB port for power only, one microUSB port for data transfer, a HAT-compatible 40-pin header, composite video & reset headers, a microSD card slot, and a CSI camera connector. The full hardware specification can be found [here](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html). 
 
 ![](assets/hardware07.jpg)
 
