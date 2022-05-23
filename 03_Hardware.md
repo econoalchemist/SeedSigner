@@ -46,6 +46,8 @@ If you do not want to get the complete kit, you can buy a stand alone RaspberryP
 - North American delivery available from [Adafruit](https://www.adafruit.com/product/2885)
 - Philippines delivery available from [TechHaven](https://www.lazada.com.ph/products/raspberry-pi-zero-version-13-i2659573158-s12653906040.html?spm=a2o4l.seller.list.1.111a346bP5V0no&mp=1&freeshipping=1)
 
+If you are having a difficult time finding the RaspberryPi Zero hardware, some alternative sources are [Rpi Locator](https://rpilocator.com/) or possibly the [Raspi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/), make sure to do your homework on compatibility with this version prior to purchasing it. Alternatively, if you are only able to find the WiFi and or BlueTooth enabled versions of the Raspberry Pi Zero, then [this](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware) guide by [@DesobedienteTec](https://twitter.com/DesobedienteTec) will show you how to disable the communication radios. 
+
 ## The WaveShare LCD HAT Display
 The WaveShare LCD Hardware-Attached-on-Top (HAT) is a 65mm x 30mm module that attaches to the 40-pin connector on the RaspberryPi Zero. This module features a 240x240 resolution, RGB display measuring 39mm diagonal. The embedded controls use a joystick and three push-buttons. Operating voltage is 3.3vdc. More specifications can be found [here](https://www.waveshare.com/wiki/1.3inch_LCD_HAT).
 
@@ -137,3 +139,6 @@ Then you can insert the MicroSD card again. Then press the LCD display into plac
 Plug in your power cable and make sure everything works. Then you are ready to start setting up your new Bitcoin seed phrase.
 
 ![](assets/assembly09.png)
+
+You may be able to find additional resources in [this](https://github.com/shishi21m/SeedSigner-Guides/blob/main/SeedSigner%20Build%20Guide.pdf) guide by [@shishi21m
+](https://twitter.com/shishi21m). 
