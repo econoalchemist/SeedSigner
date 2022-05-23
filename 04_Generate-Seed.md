@@ -59,7 +59,7 @@ From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"dice 
 <img width="500" src="assets/seedgen11.png">
 </p>
 
-Step 2: Roll The Dice
+## Step 2: Roll The Dice
 Next, you can roll your dice and then enter the result by selecting that number on the SeedSigner screen and pushing the joystick. Repeat this process for all of your rolls.   
 
 <p align="center">
@@ -67,7 +67,7 @@ Next, you can roll your dice and then enter the result by selecting that number 
 <img width="500" src="assets/seedgen13.png">
 </p>
   
-Step 3: Finalize
+## Step 3: Finalize
 When you enter the last roll, the SeedSigner will display the warning about sharing this information. Accept the warning telling you that this information needs to remain private and secure. Finally, your mnemonic phrase will be displayed. The screen displays four words at a time. 
 
 <p align="center">
