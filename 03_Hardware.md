@@ -14,7 +14,7 @@ The enclosure also features openings for the camera lens, microUSB ports, HDMI p
 
 If you do not want to get the complete kit, you can buy a stand alone enclosure of various designs from the following vendors:
 
-- Worlwide delivery available from [BTC Hardware Solutions](https://btc-hardware-solutions.square.site/product/orange_pill/5?cs=true&cst=custom)
+- Worldwide delivery available from [BTC Hardware Solutions](https://btc-hardware-solutions.square.site/product/orange_pill/5?cs=true&cst=custom)
 - Worldwide delivery available from [Robotechy](https://robotechy.com/collections/frontpage/products/seedsigner-3d-printed-pill-case)
 - EU/UK delivery available from [GoBrrr](https://www.gobrrr.me/product/seedsigner-lilpill-case/?v=7516fd43adaa), [DIYNodes](https://diynodes.com/product/seedsigner-3d-printed-orange-pill-case/), & [AnchorHodl](https://anchorhodl.com/product/retro-pill-case-for-seedsigner)
 
