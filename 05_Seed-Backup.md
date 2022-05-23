@@ -60,7 +60,7 @@ Decide if you want to write down the fingerprint for the mnemonic phrase wallet,
 <img src="assets/backup10.png">
 </p>
   
-Or in this example, the primary wallet fingerprint it noted at the top and then the finger print for the passphrase applied wallet is noted at the bottom with the indicator "PP" for passphrase. Keep in mind too, that if you store your mnemonic phrase with your seed phrase then an adversary would have all the information the need to steal your bitcoin. However, you store your passphrase separate from your mnemonic phrase then there is added security. 
+Or in this example, the primary wallet fingerprint is noted at the top and then the finger print for the passphrase applied wallet is noted at the bottom with the indicator "PP" for passphrase. Keep in mind too, that if you store your mnemonic phrase with your seed phrase then an adversary would have all the information they need to steal your bitcoin. However, if you store your passphrase separate from your mnemonic phrase then there is added security. 
 
 <p align="center">
 <img src="assets/backup12.png">
@@ -129,8 +129,7 @@ You should have well defined and clear marks in your steel plate that match the 
 Your Steel QR code is now ready to be securely stored. 
 
 ## Fire Test
-To verify that the wallet information could be recovered in the event of catastrophic events such as fire, the steel plate was heated up to just below melting temperatures using an oxygen & acetylene torch. Ideally, in the event of a fire, the QR code on the steel plate would still
- be able to be scanned and recovered quickly. However, fire can cause the finish on the plate to disappear leaving very little distinction between the plate background and the darkened areas. Recovery in this case can still be possible by visually transcribing the information from the burnt QR code steel plate to a paper note card and then scanning the QR code on the note card. This stress test revealed that the steel plate can withstand temperatures just below 1,500° C, well below typical house fire temperatures, and the information contained within the steel plate was still 100% recoverable by visually transcribing the QR code to a paper note card.
+To verify that the wallet information could be recovered in the event of catastrophic events such as fire, the steel plate was heated up to just below melting temperatures using an oxygen & acetylene torch. Ideally, in the event of a fire, the QR code on the steel plate would still be able to be scanned and recovered quickly. However, fire can cause the finish on the plate to disappear leaving very little distinction between the plate background and the darkened areas. Recovery in this case can still be possible by visually transcribing the information from the burnt QR code steel plate to a paper note card and then scanning the QR code on the note card. This stress test revealed that the steel plate can withstand temperatures just below 1,500° C, well below typical house fire temperatures, and the information contained within the steel plate was still 100% recoverable by visually transcribing the QR code to a paper note card.
 
 You can watch the fire test in the full video at [this link](https://media.econoalchemist.com/w/du6mSagqhxYSr5uz8CvnzU?start=12m23s).
 
