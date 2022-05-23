@@ -7,10 +7,10 @@ If you want to learn more about the processes used with Hierarchical Determinist
 
 Your SeedSigner can communicate this number to you in the form of a list of English words or a QR code; both methods contain the same information, your master seed. Keep in mind that anyone who gains access to this master seed information can use it to re-create your Bitcoin wallet and take the bitcoin from it, so be sure to handle this information securely and privately. 
 
-You will have a couple choices when creating a new seed, capture an image or roll some dice. Both processes involve randomness, which is a key element in creating a secure master seed that cannot be guessed. The randomness of the image-method involves taking information from several frames prior to the image itself along with some information in the image. The randomness of the dice rolls is pretty self explanatory, best practice is to use a balanced dice. Another best practice is to use a 256 bit number for your master seed which translates to a 24-word mnemonic, the 12-word mnemonics are made from 128 bits. 
+You will have a couple choices when creating a new seed, capture an image or roll some dice. Both processes involve randomness, which is a key element in creating a secure master seed that cannot be guessed. Best practice is to use a 256-bit number for your master seed which translates to a 24-word mnemonic, the 12-word mnemonics are made from 128-bits. 
 
 # Method 1: With Camera
-As mentioned, the randomness with the image method is a combination of information taken from several frames prior to the actual image itself plus some information from the image. No two images will be exactly the same and they will all produce drastically different master seeds. 
+No two images will be exactly the same and they will all produce drastically different master seeds. The randomness of the image-method involves taking information from several frames prior to the image itself along with some information in the image as well as the unique serial number of the Raspberry Pi Zero processor and the number of miliseconds the device has been powered on for.
 
 ## Step 1: Initiate Camera
 From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"camera icon" New seed`. This will activate the camera, during this time prior to you taking the image, the SeedSigner is capturing frames and using information from these frames to include in the generation of your master seed. 
@@ -47,7 +47,7 @@ Finally, your mnemonic phrase will be displayed. The screen displays four words 
 Follow the directions in the next section, "Seed Backup", to see how to secure this information. 
 
 # Method 2: With Dice
-Randomness with dice rolls is calculated by `log2(6) = 2.58 bits of entropy`, this is why it takes 50 rolls for 128 bits or 99 rolls for 256 bits: `log2(6)*99 = 255.9`. By rolling a dice 99 times, you are providing the randomness necessary to create a random number that is impossible to guess. The dice method will give you a choice between 128 bits/50 rolls/12-words or 256 bits/99 rolls24-words.    
+The randomness of the dice rolls is pretty self explanatory, best practice is to use a balanced dice. The technical definition of entropy with a six-sided dice is calculated by `log2(6) = 2.58 bits of entropy`, this is why it takes 50 rolls for 128 bits or 99 rolls for 256 bits: `log2(6)*99 = 255.9`. By rolling a dice 99 times, you are providing the randomness necessary to create a random number that is impossible to guess. The dice method will give you a choice between 128 bits/50 rolls/12-words or 256 bits/99 rolls24-words.    
 
 Step 1: Initiate Dice Entry
 From the SeedSigner main menu, navigate to `Seeds` > `+ Create a seed` > `"dice icon" New seed`. Then select which mnemonic length you want to use, 12-words or 24-words. Accept the warning telling you that this information needs to remain private and secure.  
