@@ -113,6 +113,7 @@ Gather your tested components. You should have the 3D printed enclosure, Raspber
 ## Step 2: Camera Module
 Remove the protective layer of film from the camera lens. Then snap the camera module into place under the retainer clips. If the ports for the USB connections are facing away from you then the ribbon cable should be going to the right-hand side.  
 
+![](assets/assembly01.png)
 ![](assets/assembly02.png)
 
 ## Step 3: Raspberry Pi Zero
