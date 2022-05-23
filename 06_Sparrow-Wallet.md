@@ -40,6 +40,12 @@ You will receive a warning about privacy implications of exporting your Xpub, th
   <img width="500" src="assets/sparrow02.png">
 </p>
 
+If you are having trouble with the brightness of the HAT display, you can hold the joystick in the up or down position during the animated QR code loop to change the brightness of the screen. There are 8 brightness levels from very dim to very bright. 
+
+<p align="center">
+<img src="assets/brightness.png">
+</p>
+
 ## Step 4: Finalize Import
 Back in Sparrow Wallet, once you scan the animated QR codes, you can name your new wallet and add an optional password. Be careful not to confuse this password with your passphrase. This password in Sparrow Wallet is just to encrypt the wallet file on your PC. 
 
