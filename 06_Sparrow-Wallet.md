@@ -76,7 +76,7 @@ From Sparrow Wallet, navigate to your `UTXOs` tab on the left-hand side of the i
 
 ## Step 2: Build Transaction
 - On the next screen, you can enter the address you want to spend the bitcoin to. 
-- Add a label so you remember what the transaction was for. 
+- Add a label so you remember what the transaction was for. This is only visible in your local wallet instance, these labels are not included in the transaction information that gets broadcast to the Bitcoin network. 
 - Enter the amount (or select max amount in this case) 
 - Set your miner fee rate. 
 - Then click on `Create Transaction once you have all the details filled in`. 
@@ -132,7 +132,7 @@ Once your transaction is broadcast to the Bitcoin network, then you can use your
 ![](assets/psbt14.png)
 
 # Importing Private Key
-As of Sparrow Wallet version 1.6.4, you can scan your private key QR code and import to Sparrow Wallet. If you are trying to keep your wallet air-gapped then do not attempt this as it will put your private key on a device that is either currently connected to the internet or has been/will be connected to the internet. The risk here is that you could be creating a hot wallet. By following the steps below, Sparrow Wallet will write a wallet file to your PC. This wallet file will contain your private key. If your computer is compromised in the future and this file is found then your bitcoin could be at risk. Using a password to encrypt this wallet file is a minimum recommended precaution if you choose to proceed. A passphrase will not be stored in the wallet file and this is another safeguard you can use to help protect your bitcoin in the event that your private key is exposed. Importing a private key can be useful for quickly generating your wallet, constructing a transaction, and broadcasting it without having to pass details back and forth to the SeedSigner if you find yourself in a situation where time is of the essence and your signing device is unavailable to you. If you want the convenience of being able to generate receiving addresses and checking your balance without the security vulnerability of having your private keys on a network connected device, then use the watch-only wallet option described above. You can also sign a PSBT in Sparrow Wallet using your SeedSigner QR code and Sparrow Wallet will not save that information, if you are in an emergency.
+As of Sparrow Wallet version 1.6.4, you can scan your private key QR code and import to Sparrow Wallet. If you are trying to keep your wallet air-gapped then do not attempt this as it will put your private key on a device that is either currently connected to the internet or has been/will be connected to the internet. The risk here is that you could be turning your cold wallet into a hot wallet. By following the steps below, Sparrow Wallet will write a wallet file to your PC. This wallet file will contain your private key. If your computer is compromised in the future and this file is found then your bitcoin could be at risk. Using a password to encrypt this wallet file is a minimum recommended precaution if you choose to proceed. A passphrase will not be stored in the wallet file and this is another safeguard you can use to help protect your bitcoin in the event that your private key is exposed. Importing a private key can be useful for quickly generating your wallet, constructing a transaction, and broadcasting it without having to pass details back and forth to the SeedSigner if you find yourself in a situation where time is of the essence and your signing device is unavailable to you. If you want the convenience of being able to generate receiving addresses and checking your balance without the security vulnerability of having your private keys on a network connected device, then use the watch-only wallet option described above. You can also sign a PSBT in Sparrow Wallet using your SeedSigner QR code and Sparrow Wallet will not save that information, if you are in an emergency.
 
 ## Step 1: Initiate Import
 In Sparrow Wallet, navigate to `File` > `Import Wallet`
@@ -160,16 +160,16 @@ Then you will be asked to name your new wallet. Once you have entered a name, cl
 ![](assets/sparrow12.png)
 
 ## Step 6: Add Password
-Optionally, you can add a password to protect this wallet file. This password should not be cobnfused with your _passphrase_. This password will encrypt the wallet file saved on your PC. 
+Optionally, you can add a password to protect this wallet file. This password should not be confused with your _passphrase_. This password will encrypt the wallet file saved on your PC. 
 
 ![](assets/sparrow13.png)
 
 ## Step 7: Confirm Passphrase
-You will then be asked to confirm the passphrase you entered. 
+You will then be asked to confirm the passphrase you entered in Step 4. 
 
 ![](assets/sparrow14.png)
 
-Now you have a fully functional wallet from your SeedSigner now live in Sparrow Wallet. Remember, if you are using Sparrow Wallet on a network connected PC then this is no longer an air-gapped wallet. However, you can now quickly construct and broadcast transactions. 
+Now you have a fully functional wallet from your SeedSigner live in Sparrow Wallet. Remember, if you are using Sparrow Wallet on a network connected PC then this is no longer an air-gapped wallet. However, you can now quickly construct and broadcast transactions. 
 
 ![](assets/sparrow15.png)
 
