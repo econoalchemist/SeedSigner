@@ -12,6 +12,7 @@ This guide covers:
 - Securing wallet backup information
 - Creating transactions
 - Signing transactions
+- Multisig
 
 ## The Importance of Self-Custody
 Before diving into the project, understanding the context for self-custody is a critical aspect of mitigating some of the most pervasive risks involved with Bitcoin, as the saying goes: "Not your keys, not your coins". Trusting third parties like exchanges with your bitcoin introduces several risks that have the potential to leave you vulnerable to theft, seizure, and unrealized capital gains tax. 
