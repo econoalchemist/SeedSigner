@@ -173,7 +173,7 @@ Now you have a fully functional wallet from your SeedSigner live in Sparrow Wall
 
 ![](assets/sparrow15.png)
 
-Another benefit is that now you can find your PayNym to start making collaborative transactions and you can use the Sparrow Wallet Whirlpool implementation for the privacy benfits.
+Another benefit is that now you can find your PayNym to start making collaborative transactions and you can use the Sparrow Wallet Whirlpool implementation for the privacy benefits.
 
 Navigate to `Tools` > `Show PayNym`. 
 
