@@ -64,7 +64,7 @@ Or if there has been some manipulation in the file you downloaded and it is not 
  <img src="assets/software08.png">
 </p>
 
-Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that sha256 hash value contained within it is in fact the hash value that you should be able to independently generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
+Now that you have verified the authenticity of the accompanying `.sha256` file, you can rest assured that the sha256 hash value contained within it is in fact the hash value that you should be able to independently generate on the accompanying `.zip` file. To generate hash values on files, you can use a convenient freeware hex editor tool called [HxD](https://mh-nexus.de/en/hxd/). 
 
 - In HxD, navigate to `File` > `Open` and select the SeedSigner `.zip` file
 - Navigate to `Analysis` > `Checksums` > `SHA256`
